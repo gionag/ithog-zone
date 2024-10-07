@@ -1,0 +1,19 @@
+$TTL 86400
+@       IN      SOA     ns1.ithog.it. admin.ithog.it.  (
+                                      2024100701 ; Serial
+                                      3600       ; Refresh
+                                      7200       ; Retry
+                                      1209600    ; Expire - 1 week
+                                      86400 )    ; Minimum
+; Name servers
+@       IN  NS  ns1.ithog.it.  ; Name server 1
+@       IN  NS  ns2.ithog.it.  ; Name server 2
+
+
+ns1	IN  A  127.0.0.1
+ns2	IN  A  127.0.0.1
+
+@	IN  A  185.184.221.129
+latency IN  A  185.184.221.106
+
+www	CNAME  @
