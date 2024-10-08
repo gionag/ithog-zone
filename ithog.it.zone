@@ -1,13 +1,13 @@
 $TTL 86400
 @       IN      SOA     ns1.ithog.it. admin.ithog.it.  (
-                                      2024100840 ; Serial
+                                      2024100850 ; Serial
                                       3600       ; Refresh
                                       7200       ; Retry
                                       1209600    ; Expire - 1 week
                                       86400 )    ; Minimum
 ; Name servers
-@       IN NS ns1.ithog.it.  ; Name server 1
-@       IN NS ns2.ithog.it.  ; Name server 2
+@       IN NS ns1  ; Name server 1
+@       IN NS ns2  ; Name server 2
 
 ; A
 host-185-184-221-1 IN A 185.184.221.1
@@ -267,3 +267,5 @@ host-185-184-221-254 IN A 185.184.221.254
 
 ; CNAME Records
 www	CNAME  @
+$INCLUDE Kithog.it.+007+14357.key
+$INCLUDE Kithog.it.+007+46449.key
