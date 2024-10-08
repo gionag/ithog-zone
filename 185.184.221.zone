@@ -1,6 +1,6 @@
 $TTL 86400
 @   IN  SOA ns1.ithog.it. admin.ithog.it. (
-        2024100840 ; Serial
+        2024100845 ; Serial
         3600       ; Refresh
         3600       ; Retry
         1209600    ; Expire
@@ -13,8 +13,8 @@ $TTL 86400
 
 1   IN PTR host-185-184-221-1.ithog.it.
 2   IN PTR host-185-184-221-2.ithog.it.
-3   IN PTR host-185-184-221-3.ithog.it.
-4   IN PTR host-185-184-221-4.ithog.it.
+3   IN PTR ns1.ithog.it.
+4   IN PTR ns2.ithog.it.
 5   IN PTR host-185-184-221-5.ithog.it.
 6   IN PTR host-185-184-221-6.ithog.it.
 7   IN PTR host-185-184-221-7.ithog.it.
@@ -116,7 +116,7 @@ $TTL 86400
 103 IN PTR host-185-184-221-103.ithog.it.
 104 IN PTR host-185-184-221-104.ithog.it.
 105 IN PTR host-185-184-221-105.ithog.it.
-106 IN PTR host-185-184-221-106.ithog.it.
+106 IN PTR latency.ithog.it.
 107 IN PTR host-185-184-221-107.ithog.it.
 108 IN PTR host-185-184-221-108.ithog.it.
 109 IN PTR host-185-184-221-109.ithog.it.
@@ -139,7 +139,7 @@ $TTL 86400
 126 IN PTR host-185-184-221-126.ithog.it.
 127 IN PTR host-185-184-221-127.ithog.it.
 128 IN PTR net-128-221-184-185.proxy.pst.giustizia.it.
-129 IN PTR host-185-184-221-129.ithog.it.
+129 IN PTR ithog.it.
 130 IN PTR host-185-184-221-130.ithog.it.
 131 IN PTR host-185-184-221-131.ithog.it.
 132 IN PTR mail.robertazzi.net.
