@@ -1,0 +1,14 @@
+$TTL 86400
+@   IN  SOA ns1.ithog.it. admin.ithog.it. (
+        2024100820 ; Serial
+        3600       ; Refresh
+        3600       ; Retry
+        1209600    ; Expire
+        86400 )    ; Minimum
+
+    IN  NS  ns1.ithog.it.
+    IN  NS  ns2.ithog.it.
+
+; PTR Records
+128 IN PTR net-128-221-184-185.proxy.pst.giustizia.it.
+132 IN PTR mail.robertazzi.net.
