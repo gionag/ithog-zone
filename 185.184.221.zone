@@ -1,6 +1,6 @@
 $TTL 86400
 @   IN  SOA ns1.ithog.it. admin.ithog.it. (
-        2024100850 ; Serial
+        202410900  ; Serial
         3600       ; Refresh
         3600       ; Retry
         1209600    ; Expire
@@ -265,5 +265,5 @@ $TTL 86400
 252 IN PTR host-185-184-221-252.ithog.it.
 253 IN PTR host-185-184-221-253.ithog.it.
 254 IN PTR host-185-184-221-254.ithog.it.
-$INCLUDE K221.184.185.in-addr.arpa.+007+20574.key
-$INCLUDE K221.184.185.in-addr.arpa.+007+25101.key
+$INCLUDE K221.184.185.in-addr.arpa.+007+42275.key
+$INCLUDE K221.184.185.in-addr.arpa.+007+58176.key
