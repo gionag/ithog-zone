@@ -1,6 +1,6 @@
 $TTL 86400
 @   IN  SOA ns1.ithog.it. admin.ithog.it. (
-        202410900  ; Serial
+        2024102605 ; Serial
         3600       ; Refresh
         3600       ; Retry
         1209600    ; Expire
@@ -12,9 +12,9 @@ $TTL 86400
 ; PTR Records
 
 1   IN PTR host-185-184-221-1.ithog.it.
-2   IN PTR host-185-184-221-2.ithog.it.
+2   IN PTR mail.ithog.it.
 3   IN PTR ns1.ithog.it.
-4   IN PTR ns2.ithog.it.
+4   IN PTR casper.ithog.it.
 5   IN PTR host-185-184-221-5.ithog.it.
 6   IN PTR host-185-184-221-6.ithog.it.
 7   IN PTR host-185-184-221-7.ithog.it.
@@ -125,7 +125,7 @@ $TTL 86400
 112 IN PTR host-185-184-221-112.ithog.it.
 113 IN PTR host-185-184-221-113.ithog.it.
 114 IN PTR host-185-184-221-114.ithog.it.
-115 IN PTR host-185-184-221-115.ithog.it.
+115 IN PTR web1.ithog.it.
 116 IN PTR host-185-184-221-116.ithog.it.
 117 IN PTR host-185-184-221-117.ithog.it.
 118 IN PTR host-185-184-221-118.ithog.it.
@@ -174,7 +174,7 @@ $TTL 86400
 161 IN PTR gw.rtz.fil.ithog.it.
 162 IN PTR lan.rtz.fil.ithog.it.
 163 IN PTR host-185-184-221-163.ithog.it.
-164 IN PTR host-185-184-221-164.ithog.it.
+164 IN PTR ns2.ithog.it.
 165 IN PTR host-185-184-221-165.ithog.it.
 166 IN PTR host-185-184-221-166.ithog.it.
 167 IN PTR host-185-184-221-167.ithog.it.
@@ -265,5 +265,3 @@ $TTL 86400
 252 IN PTR host-185-184-221-252.ithog.it.
 253 IN PTR host-185-184-221-253.ithog.it.
 254 IN PTR host-185-184-221-254.ithog.it.
-$INCLUDE K221.184.185.in-addr.arpa.+007+42275.key
-$INCLUDE K221.184.185.in-addr.arpa.+007+58176.key
