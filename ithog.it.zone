@@ -1,6 +1,6 @@
 $TTL 1d
 @                       IN      SOA     ns1.ithog.it. admin.ithog.it. (
-                                        2024102700  ; Serial
+                                        2024102701  ; Serial
                                         1h          ; Refresh
                                         30m         ; Retry
                                         1w          ; Expire
@@ -12,12 +12,12 @@ $TTL 1d
 
 ; Mail stuff
 @                       IN      TXT     "v=spf1 mx  a   -all"
-@                       IN      MX      10  mail.ithog.it.
-dkim._domainkey         IN      TXT     ("v=DKIM1;  k=rsa;  t=s;    s=email;    p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5per6VvDP3OfxuhooqXwjfdaPbr+D4ObWJ+RkEaXfhw1OfpmZfLftqO6vx4n3mzLr7wKc0BQB92k5QayKeQXohNt96jMxXJv+K"
+@                       IN      MX      10 mail.ithog.it.
+dkim._domainkey         IN      TXT     ("v=DKIM1; k=rsa; t=s; s=email; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5per6VvDP3OfxuhooqXwjfdaPbr+D4ObWJ+RkEaXfhw1OfpmZfLftqO6vx4n3mzLr7wKc0BQB92k5QayKeQXohNt96jMxXJv+K"
                                         "RQYBM4+IhrAFF0d5tVFLw3IBzhTgXpRJA5tNPS5C6TJhlZPGiiSUBQhNJW8vK3lAxSR2VQUI7FYwaQ+AEqUPgsqq43eVmIz3rssU+t9"
                                         "T5wbvBMTwtz87XpzkLxE4CS5dpRjGFfX3x3np/1Yg7yDsacikspctl37U39kyl7vzSBofxh69l0DquwtRrGAjwU/8kldcw83V/6IIhEm"
                                         "E4L6tgiLdavliQwn8Y0+3r7ye6KM9lGIbJ3DQIDAQAB")
-_dmarc                  IN      TXT     "v=DMARC1;  p=reject;   rua=mailto:admin@ithog.it;  aspf=r; adkim=r"
+_dmarc                  IN      TXT     "v=DMARC1; p=reject; rua=mailto:admin@ithog.it; aspf=r; adkim=r"
 _25._tcp.mail           IN      TLSA    3 1 1 4e097f15a01a76b8914902e8a68a36fa7168748b8c3ca30817196c3c7ed5dbe1
 autoconfig              IN      CNAME   mail.ithog.it.
 _25._tcp.mail           IN      TLSA    3 1 1 4e097f15a01a76b8914902e8a68a36fa7168748b8c3ca30817196c3c7ed5dbe1
