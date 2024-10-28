@@ -1,6 +1,6 @@
 $TTL 1d
 @                       IN      SOA     ns1.ithog.it. admin.ithog.it. (
-                                        2024102800  ; Serial
+                                        2024102801  ; Serial
                                         1h          ; Refresh
                                         30m         ; Retry
                                         1w          ; Expire
@@ -15,8 +15,8 @@ $TTL 1d
 2                       IN      PTR     mail.ithog.it.
 3                       IN      PTR     ns1.ithog.it.
 4                       IN      PTR     casper.ithog.it.
-5                       IN      PTR     host-185-184-221-5.ithog.it.
-6                       IN      PTR     host-185-184-221-6.ithog.it.
+5                       IN      PTR     ns1.palobasso.com.
+6                       IN      PTR     ns2.palobasso.com.
 7                       IN      PTR     host-185-184-221-7.ithog.it.
 8                       IN      PTR     host-185-184-221-8.ithog.it.
 9                       IN      PTR     host-185-184-221-9.ithog.it.
