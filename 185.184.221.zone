@@ -1,6 +1,6 @@
 $TTL 1d
 @                       IN      SOA     ns1.ithog.it. admin.ithog.it. (
-                                        2024102700  ; Serial
+                                        2024102800  ; Serial
                                         1h          ; Refresh
                                         30m         ; Retry
                                         1w          ; Expire
@@ -119,7 +119,7 @@ $TTL 1d
 106                     IN      PTR     latency.ithog.it.
 107                     IN      PTR     host-185-184-221-107.ithog.it.
 108                     IN      PTR     host-185-184-221-108.ithog.it.
-109                     IN      PTR     host-185-184-221-109.ithog.it.
+109                     IN      PTR     mail.alessiocairoli.it.
 110                     IN      PTR     host-185-184-221-110.ithog.it.
 111                     IN      PTR     host-185-184-221-111.ithog.it.
 112                     IN      PTR     host-185-184-221-112.ithog.it.
