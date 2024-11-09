@@ -107,7 +107,7 @@ $TTL 1d
 94                      IN      PTR     host-185-184-221-94.ithog.it.
 95                      IN      PTR     host-185-184-221-95.ithog.it.
 96                      IN      PTR     host-185-184-221-96.ithog.it.
-97                      IN      PTR     host-185-184-221-97.ithog.it.
+97                      IN      PTR     mail.shishc.at.
 98                      IN      PTR     host-185-184-221-98.ithog.it.
 99                      IN      PTR     host-185-184-221-99.ithog.it.
 100                     IN      PTR     host-185-184-221-100.ithog.it.
