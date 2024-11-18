@@ -1,6 +1,6 @@
 $TTL 1d
 @                       IN      SOA     ns1.ithog.it. admin.ithog.it. (
-                                        2024102701  ; Serial
+                                        2024111801  ; Serial
                                         1h          ; Refresh
                                         30m         ; Retry
                                         1w          ; Expire
@@ -25,6 +25,8 @@ autodiscover            IN      CNAME   mail.ithog.it.
 _autodiscover._tcp      IN      SRV     10 5 443 mail.ithog.it.
 
 ; A records
+monitoring		IN	A	67.107.200.2
+
 host-185-184-221-1      IN      A       185.184.221.1
 mail                    IN      A       185.184.221.2
 ns1                     IN      A       185.184.221.3
