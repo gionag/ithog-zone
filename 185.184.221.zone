@@ -1,6 +1,6 @@
 $TTL 1d
 @                       IN      SOA     ns1.ithog.it. admin.ithog.it. (
-                                        2024110902  ; Serial
+                                        2024112101  ; Serial
                                         1h          ; Refresh
                                         30m         ; Retry
                                         1w          ; Expire
@@ -264,4 +264,4 @@ $TTL 1d
 251                     IN      PTR     host-185-184-221-251.ithog.it.
 252                     IN      PTR     host-185-184-221-252.ithog.it.
 253                     IN      PTR     host-185-184-221-253.ithog.it.
-254                     IN      PTR     host-185-184-221-254.ithog.it.
+254                     IN      PTR     core1-mxp.ithog.it.
