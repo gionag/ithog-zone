@@ -1,6 +1,6 @@
 $TTL 1d
 @                       IN      SOA     ns1.ithog.it. admin.ithog.it. (
-                                        2024120301  ; Serial
+                                        2024120801  ; Serial
                                         1h          ; Refresh
                                         30m         ; Retry
                                         1w          ; Expire
@@ -28,7 +28,7 @@ _autodiscover._tcp      IN      SRV     10 5 443 mail.ithog.it.
 @			IN	TXT	"abuseipdb-verification=MdqQ7qXV"
 
 ; A records
-monitoring		IN	A	67.107.200.2
+monitoring		IN	A	207.88.76.2
 
 host-185-184-221-1      IN      A       185.184.221.1
 mail                    IN      A       185.184.221.2
