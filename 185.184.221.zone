@@ -1,6 +1,6 @@
 $TTL 1d
 @                       IN      SOA     ns1.ithog.it. admin.ithog.it. (
-                                        2024121701  ; Serial
+                                        2025012701  ; Serial
                                         1h          ; Refresh
                                         30m         ; Retry
                                         1w          ; Expire
@@ -79,7 +79,7 @@ $TTL 1d
 66                      IN      PTR     host-185-184-221-66.ithog.it.
 67                      IN      PTR     host-185-184-221-67.ithog.it.
 68                      IN      PTR     host-185-184-221-68.ithog.it.
-69                      IN      PTR     host-185-184-221-69.ithog.it.
+69                      IN      PTR     casetta.gavetta.cloud.
 70                      IN      PTR     host-185-184-221-70.ithog.it.
 71                      IN      PTR     host-185-184-221-71.ithog.it.
 72                      IN      PTR     host-185-184-221-72.ithog.it.
